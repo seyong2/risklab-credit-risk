@@ -1,0 +1,38 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Downloaded datasets and raw data
+data/raw/
+data/processed/
+data/*.csv
+data/*.xls
+data/*.xlsx
+data/*.zip
+
+# Model artefacts
+models/
+*.pkl
+*.joblib
+
+# Environment variables and secrets
+.env
+.env.*
+
+# macOS files
+.DS_Store
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
